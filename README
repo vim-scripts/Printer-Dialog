@@ -1,0 +1,20 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=512
+
+This script's intention is to simplify printing of text. It provides
+a dialog to make many many printer settings before starting to print.
+E.g. select:
+  - printer device
+  - font and its size
+  - format of paper
+  - colorscheme
+  - line-numbering
+  - ....
+
+Pressing <Leader>pd opens the Printer Dialog in which you can make your
+settings and start/cancel printing.
+
+You can print either the whole contents of a buffer or a part of it.
+If you want to select a whole buffer for printing, press <Leader>pd.
+If you want to print only a part of a buffer, visually select this part and
+press <Leader>pd.
+
